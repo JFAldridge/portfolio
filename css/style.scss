@@ -405,13 +405,27 @@ section#projects {
             transform: translate3d(0,-100%,0);
             .details-container {
                 position: relative;
-                padding: 20px 30px;
+                padding: 10px 20px;
+                a, p {
+                    margin-bottom: 10px;
+                    @media(min-width: $sm) {
+                        margin-bottom: 16px;
+                    }
+                }
+                @media(min-width: $sm) {
+                    padding: 20px 30px;
+                }
                 .details-header {
                     position: relative;
-                    font-size: 1.7em;
+                    font-size: 1.5em;
+                    padding: 10px 0;
+                    margin-bottom: 10px;
                     font-weight: bold;
-                    padding: 18px 0;
-                    margin-bottom: 18px; 
+                    @media(min-width: $sm) {
+                        font-size: 1.7em;
+                        padding: 18px 0;
+                        margin-bottom: 18px;
+                    }
                     &::after {
                         position: absolute;
                         bottom: 0;

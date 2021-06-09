@@ -422,15 +422,39 @@ section#projects figure figcaption.project-details {
 
 section#projects figure figcaption.project-details .details-container {
   position: relative;
-  padding: 20px 30px;
+  padding: 10px 20px;
+}
+
+section#projects figure figcaption.project-details .details-container a, section#projects figure figcaption.project-details .details-container p {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  section#projects figure figcaption.project-details .details-container a, section#projects figure figcaption.project-details .details-container p {
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 576px) {
+  section#projects figure figcaption.project-details .details-container {
+    padding: 20px 30px;
+  }
 }
 
 section#projects figure figcaption.project-details .details-container .details-header {
   position: relative;
-  font-size: 1.7em;
+  font-size: 1.5em;
+  padding: 10px 0;
+  margin-bottom: 10px;
   font-weight: bold;
-  padding: 18px 0;
-  margin-bottom: 18px;
+}
+
+@media (min-width: 576px) {
+  section#projects figure figcaption.project-details .details-container .details-header {
+    font-size: 1.7em;
+    padding: 18px 0;
+    margin-bottom: 18px;
+  }
 }
 
 section#projects figure figcaption.project-details .details-container .details-header::after {
