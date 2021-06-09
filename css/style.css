@@ -197,26 +197,11 @@ section#hero .hero-text i {
   opacity: .9;
 }
 
-section#hero .hero-text i:hover {
-  color: #fafafa;
-  background-color: #795548;
-}
-
-section#hero .hero-text button {
-  border: none;
-  border-radius: 48%;
-  background-color: #f7f5e6;
-  padding: 30px 20px;
-  color: #fafafa;
-  font-size: 1.3em;
-  letter-spacing: .1em;
-  position: relative;
-  bottom: -25px;
-}
-
-section#hero .hero-text button:hover {
-  color: #f7f5e6;
-  background-color: #fafafa;
+@media (hover: hover) {
+  section#hero .hero-text i:hover {
+    color: #fafafa;
+    background-color: #795548;
+  }
 }
 
 .bounce {
