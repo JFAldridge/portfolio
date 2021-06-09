@@ -39,6 +39,20 @@ hr {
           transform: scale(1.2);
 }
 
+a.nav-link.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform: translate3d(2%, 0, 0);
+          transform: translate3d(2%, 0, 0);
+}
+
+@media (min-width: 992px) {
+  a.nav-link.active {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
 i:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -118,6 +132,10 @@ header nav ul {
 header nav ul a.nav-link {
   color: #fafafa;
   font-size: 1.2em;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
 }
 
 header nav ul a.nav-link:link, header nav ul a.nav-link:visited, header nav ul a.nav-link:active {
@@ -153,8 +171,8 @@ section#hero .hero-text {
 section#hero .hero-text h1 {
   letter-spacing: 0.02em;
   font-family: "Cormorant Garamond", serif;
-  font-size: 2.5em;
   text-shadow: 0px 0px 3px #4b2c20;
+  font-size: 2em;
 }
 
 section#hero .hero-text hr {
