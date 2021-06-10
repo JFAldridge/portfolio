@@ -284,6 +284,29 @@ section#profile #social-link-container i {
   margin: 8px;
 }
 
+section#profile #social-link-container a#cv-link {
+  position: relative;
+  color: #fafafa;
+  font-weight: bold;
+  font-size: 1.3em;
+  background: #007f7e;
+  border-radius: 7%;
+  margin: 10px 8px;
+  padding: 0 3px;
+  height: 34px;
+  vertical-align: text-bottom;
+}
+
+section#profile #social-link-container a#cv-link:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+section#profile #social-link-container a#cv-link span#cv-text {
+  position: relative;
+  top: 4px;
+}
+
 section#profile #social-link-container small {
   margin-bottom: 0;
 }

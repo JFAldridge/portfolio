@@ -293,6 +293,25 @@ section#profile {
             font-size: 2em;
             margin: 8px;
         }
+        a#cv-link {
+            position: relative;
+            color: $off-white;
+            font-weight: bold;
+            font-size: 1.3em;
+            background: $teal-primary;
+            border-radius: 7%;
+            margin: 10px 8px;
+            padding: 0 3px;
+            height: 34px;
+            vertical-align: text-bottom;
+            &:hover{
+                transform: scale(1.2);
+            }
+            span#cv-text {
+                position: relative;
+                top: 4px;
+            }
+        }
         small {
             margin-bottom: 0;
         }
