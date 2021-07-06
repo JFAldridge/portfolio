@@ -1,0 +1,96 @@
+// Misc.
+	$misc: (
+		z-index-base:	10000
+	);
+
+// Duration.
+	$duration: (
+		navPanel: 0.5s
+	);
+
+// Size.
+	$size: (
+		navPanel: 275px,
+		radius: 5px
+	);
+
+// Font.
+	$font: (
+		header: ('Source Sans Pro', sans-serif),
+		body: ('Lato', sans-serif)
+	);
+
+// Palette.
+	$palette: (
+		/* Original
+		bg: #f7f7f7,
+		bg2: #333,
+		fg: #474747,
+		fg2: #c0c0c0,
+		*/
+		
+		/* Slightly muted original 
+		bg: #F2F1EF,
+		bg2: rgb(51, 51, 51),
+		bg2-trans: darken(rgba(51, 51, 51, .75), 30),
+		fg: #413F3D,
+		fg2: #D8CFD0,
+
+		accent: (
+			bg: #3775fb,
+			fg: #fcfcfc
+		)
+		*/
+	
+
+		/* Blue Orange 
+		bg: #F2F1EF,
+		bg2: rgb(100, 108, 121),
+		bg2-trans: darken(rgba(100, 108, 121, .75), 30), 
+		bg-raised: #ffffff,
+		fg: #1F3044,
+		fg2: #D8CFD0,
+
+		fg-bold: #4c4c4c,
+		border: #e0e0e0,
+
+		accent: (
+			bg: #FB9039,
+			fg: #fcfcfc
+		)
+		*/
+
+		/* Green Tan 
+		bg: #d1e8e2,
+		bg2: rgb(17, 100, 102),
+		bg2-trans: darken(rgba(17, 100, 102, .75), 20),
+		bg-raised: #ffffff, 
+		fg: #2c3531,
+		fg2: #D8CFD0,
+
+		fg-bold: #4c4c4c,
+		border: #e0e0e0,
+
+		accent: (
+			bg: #ffcb9a,
+			fg: #fffaf7
+		)
+		*/
+
+		/* Blue Burgandy */
+		bg: #fff0ec,
+		bg2: rgb(188, 70, 57),
+		bg2-trans: darken(rgba(188, 70, 57, .75), 20),
+		bg-raised: #ffffff, 
+		fg: #5c2018,
+		fg2: #c0ccda,
+
+		fg-bold: #4c4c4c,
+		border: #e0e0e0,
+
+		accent: (
+			bg: #4285f4,
+			fg: #fffdfb
+		)
+		
+	);
