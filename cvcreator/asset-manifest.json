@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/cvcreator/static/css/main.288c76c2.chunk.css",
-    "main.js": "/cvcreator/static/js/main.efd61a19.chunk.js",
-    "main.js.map": "/cvcreator/static/js/main.efd61a19.chunk.js.map",
+    "main.js": "/cvcreator/static/js/main.6a21a8ce.chunk.js",
+    "main.js.map": "/cvcreator/static/js/main.6a21a8ce.chunk.js.map",
     "runtime-main.js": "/cvcreator/static/js/runtime-main.10246c2c.js",
     "runtime-main.js.map": "/cvcreator/static/js/runtime-main.10246c2c.js.map",
-    "static/js/2.5e4f6265.chunk.js": "/cvcreator/static/js/2.5e4f6265.chunk.js",
-    "static/js/2.5e4f6265.chunk.js.map": "/cvcreator/static/js/2.5e4f6265.chunk.js.map",
+    "static/js/2.d6f085ee.chunk.js": "/cvcreator/static/js/2.d6f085ee.chunk.js",
+    "static/js/2.d6f085ee.chunk.js.map": "/cvcreator/static/js/2.d6f085ee.chunk.js.map",
     "index.html": "/cvcreator/index.html",
     "static/css/main.288c76c2.chunk.css.map": "/cvcreator/static/css/main.288c76c2.chunk.css.map",
-    "static/js/2.5e4f6265.chunk.js.LICENSE.txt": "/cvcreator/static/js/2.5e4f6265.chunk.js.LICENSE.txt",
+    "static/js/2.d6f085ee.chunk.js.LICENSE.txt": "/cvcreator/static/js/2.d6f085ee.chunk.js.LICENSE.txt",
     "static/media/cv.scss": "/cvcreator/static/media/hero-bg.cbd9749c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.10246c2c.js",
-    "static/js/2.5e4f6265.chunk.js",
+    "static/js/2.d6f085ee.chunk.js",
     "static/css/main.288c76c2.chunk.css",
-    "static/js/main.efd61a19.chunk.js"
+    "static/js/main.6a21a8ce.chunk.js"
   ]
 }
